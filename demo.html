@@ -64,7 +64,8 @@ textarea {
 </div>
 
 <script>
-  var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  // var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  var cors_api_url = 'https://test-cors-anywhere.scm.azurewebsites.net/';  
   function doCORSRequest(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);

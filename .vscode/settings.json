@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fe57d516-0ebe-4709-91ec-5667edfbd918/resourceGroups/rg-wwe-ictx-cors_anywhere/providers/Microsoft.Web/sites/test-cors-anywhere",
+    "appService.deploySubpath": "."
+}
